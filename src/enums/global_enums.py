@@ -1,0 +1,8 @@
+from enum import Enum
+
+
+# сообщения об ошибках
+
+class GlobalErrorMessages(Enum):
+    WRONG_STATUS_CODE = "Received status code is not equal"
+    WRONG_ELEMENT_COUNT = "Number of items is not equal"
